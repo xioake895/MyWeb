@@ -1,0 +1,30 @@
+*{margin: 0; padding:0;}                   /*全局属性设置*/
+.wp{width: 960px; margin:0 }
+body{ 
+	width: 1349px;
+	height: 637px;	
+}
+.z{
+    float:left;
+}
+.y{	
+    float:right;
+}
+
+.top{
+	width: 1349px;
+	height: 76px;
+}
+.center_l{
+	width: 216px;
+	height: 522px;
+}
+.center_c{
+	width: 867px;
+	height: 522px;
+	background: url("images/search_result_c.jpg");
+}
+.center_r{
+	width: 266px;
+	height: 522px;
+}

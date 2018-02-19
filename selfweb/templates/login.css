@@ -1,0 +1,80 @@
+*{margin: 0; padding:0;}                   /*全局属性设置*/
+.wp{width: 960px; margin:0 }
+body{ 
+	/*font: 14px/24px '微软雅黑' ;*/
+	width: 1663px;
+	height: 500px;
+
+	
+}
+
+.z{
+    float:left;
+}
+.y{	
+    float:right;
+}
+.cl{
+    clear: both;
+}                                           /*全局属性设置*/
+
+.top{
+	width: 100%;
+	height: 215px;
+}
+/*中间*/
+.bg_c{
+	width: 1663px;
+	height: 206px
+}
+.bg_c_l{
+	width: 511px;
+	height: 206px;
+}
+.bg_c_c{
+	background: url("images/bg_c_c.jpg")repeat-x;
+	width: 451px;
+	height: 206px;
+}
+
+.id input{
+	width:330px;
+	height: 22px;
+	margin-top: 33px;
+	margin-left: 59px;
+	background: none;
+	border: 0px;
+}
+.pw input{
+	width:330px;
+	height: 22px;
+	margin-top: 17px;
+	margin-left: 59px;
+	background: none;
+	border: 0px;
+}
+.sm button{
+	width:260px;
+	height: 25px;
+	margin-top: 46px;
+	margin-left: 99px;
+	background:none;
+	border: none;
+}
+.bg_c_r{
+	width: 387px;
+	height: 206px;
+}
+/*底部*/
+.bottom {
+	width: 1663px;
+	height: 147px;
+	font-size: 0; 
+	line-height: 0;
+}
+.bottom img{
+	/*margin-top: 0; */
+	line-height: 0;
+	display:block
+	vertical-align:top;
+}
