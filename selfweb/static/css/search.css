@@ -5,11 +5,18 @@ body{
 	height: 637px;	
 }
 .top{
+	background: url("../images/search_top.jpg")repeat-x;
 	width: 1349px;
 	height: 286px;
 }
+.top a{
+	font-size:20px;
+	color:white;
+	font-family:宋体;
+	float:right;
+}
 .center{
-	background: url("images/search_c.jpg")repeat-x;
+	background: url("../images/search_c.jpg")repeat-x;
 	width: 1349px;
 	height: 57px;
 }

@@ -32,7 +32,7 @@ body{
 	height: 206px;
 }
 .bg_c_c{
-	background: url("images/bg_c_c.jpg")repeat-x;
+	background: url("../images/bg_c_c.jpg")repeat-x;
 	width: 451px;
 	height: 206px;
 }
