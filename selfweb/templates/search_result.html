@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <title>search</title>
     <link rel="stylesheet"  href="../static/css/research_result.css"/>
 </head>
@@ -13,8 +13,11 @@
 		<div class="center_l z">
 			<img src="..\static\images/search_result_l.jpg">
 		</div>
-		<div class="center_c z">
-			<h1>haah</h1>
+		<div class="center_c z"  style="overflow:auto">
+			<h4>职位名称&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;公司名称&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;工作地点&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;薪资待遇</h4>   
+			{%for content in contents%}
+			<pre>{{content}}</pre>
+			{%endfor%}
 		</div>
 		<div  class="center_r z">
 			<img src="..\static\images/search_result_r.jpg">

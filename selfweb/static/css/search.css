@@ -20,6 +20,11 @@ body{
 	width: 1349px;
 	height: 57px;
 }
+
+.center form{
+	width: 1349px;
+	height: 57px;
+}
 .center input{
 	margin-left:335px;
 	background:none;
@@ -27,4 +32,11 @@ body{
 	width: 667px;
 	height: 57px;
 	font-size: 30px;
+}
+.center button{
+	background:none;
+	border:none;
+	width:65px;
+	height: 57px;
+
 }

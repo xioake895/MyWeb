@@ -20,9 +20,19 @@ body{
 	height: 522px;
 }
 .center_c{
+	
 	width: 867px;
 	height: 522px;
 	background: url("../images/search_result_c.jpg");
+}
+.center_c p{
+	white-space: pre;
+	text-align: left;
+	font-size: 15px;
+	float: left;
+	color: white;
+	width: 867px;
+	height: 30px;
 }
 .center_r{
 	width: 266px;

@@ -10,7 +10,14 @@
 		<a href='http://127.0.0.1:8000/resume/' target='_blank'>我的简历</a>
 	</div>
 	<div class="center">
-		<input type="text" name="search">
+		<form action="search/" method="post">
+			<table>
+				<tr>
+					<td><input type="text" name="search"/></td>
+					<td><button type="submit" name="submit"/></td>
+				</tr>
+			</table>
+		</form>
 	</div>
 	<div class="bottom">
 		<img src="../static/images/search_bottom.jpg">
