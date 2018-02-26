@@ -23,7 +23,7 @@ urlpatterns = [
 '''
 from django.conf.urls import patterns
 from django.contrib.staticfiles.urls import staticfiles_urlpatterns
-from django.contrib import staticfiles
+#from django.contrib import staticfiles
 urlpatterns=patterns('',
     (r'^login/$','article.views.login'),
     (r'^search/$','article.views.search'),

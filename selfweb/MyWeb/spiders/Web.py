@@ -1,11 +1,12 @@
 # -*- coding: utf-8 -*-
 import scrapy
 import re
-
 class WebSpider(scrapy.Spider):
     name = 'Web'
     #allowed_domains = ['zhilian.com']
-    kw="python"
+    #kw="python"
+    with open('F:\project\selfweb\kw.txt','r') as f:
+        kw=f.read()
     jl="大连"
     start_urls = ['http://sou.zhaopin.com/jobs/searchresult.ashx?jl=%s&kw=%s'%(jl,kw)]
     
